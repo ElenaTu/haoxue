@@ -28,23 +28,20 @@ body{
   height: 40px;
   background-color: white;
   width: 100%;
-  text-align:center;
+
 
   -webkit-justify-content: center;
           justify-content: center;
-  
-  z-index:999;
   
 }
 
 .header logo{
   display: inline-block;
-  float:left;
+  width: 30%;
 }
 
 .header .logo img{
   display: inline-block;
-
   text-align : left;
   width: 40px;
   //height:30px;
@@ -59,25 +56,22 @@ body{
 
 }
 
-.header button{
-  
-  background-color: #2C4C79;
-  color:white;
-  
-  
-
+.button-wrap{
+  vertical-align: middle;
+  display: inline-block;
 }
 
-.header .button-wrap{
-  display: inline-block;
+
+.header button{
+  background-color: #2C4C79;
+  color:white;
   float: right;
-  line-height:35px;
-  
+
 }
 
 .header .search2 {
   display: inline-block;
-  width: 50%;
+  width: 60%;
 }
  .header .search{
 
@@ -85,8 +79,8 @@ body{
   //vertical-align : middle;
    
   font-size: 13px;
-  width: 600px;
-  background: white url('http://imgur.com/1rxHuaw.jpg')  no-repeat 600px 0px ;
+  width: 400px;
+  background: white url('http://imgur.com/1rxHuaw.jpg')  no-repeat 400px 0px ;
   background-size:25px 25px;
   padding: 3px 3px 3px 22px;
 }
@@ -111,10 +105,6 @@ body{
   height:px;
   //position:absolute;
   z-index:2;
-}
-
-.button-wrap{
-  vertical-align: m
 }
 
 
