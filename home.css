@@ -1,0 +1,239 @@
+body{
+  font-family: 微軟正黑體;
+  background-color: #E3F0F9;
+  
+}
+
+
+.all{
+  max-width: auto;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  margin-top: 120px;  
+  background-color: #E3F0F9;
+  
+}
+
+.main{
+  
+  max-width: auto;
+  margin: 0 auto;
+　
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  background-color: white;
+  width: 100%;
+  text-align:center;
+
+  -webkit-justify-content: center;
+          justify-content: center;
+  
+  z-index:999;
+  
+}
+
+.header logo{
+  display: inline-block;
+  float:left;
+}
+
+.header .logo img{
+  display: inline-block;
+
+  text-align : left;
+  width: 40px;
+  //height:30px;
+  line-height:0px;
+  vertical-align:middle;
+}
+
+.header .logo .logoWord{
+  display: inline-block;
+  text-align : left;
+  line-height:0px;
+
+}
+
+.header button{
+  
+  background-color: #2C4C79;
+  color:white;
+  
+  
+
+}
+
+.header .button-wrap{
+  display: inline-block;
+  float: right;
+  line-height:35px;
+  
+}
+
+.header .search2 {
+  display: inline-block;
+  width: 50%;
+}
+ .header .search{
+
+  text-align : left;
+  //vertical-align : middle;
+   
+  font-size: 13px;
+  width: 600px;
+  background: white url('http://imgur.com/1rxHuaw.jpg')  no-repeat 600px 0px ;
+  background-size:25px 25px;
+  padding: 3px 3px 3px 22px;
+}
+
+
+
+
+.logoImg{
+  float: center;
+  position:absolute;
+ 
+  height : 200px;
+  width : 100%;
+  color : #2C4C79;
+  font-size:150%;
+  text-align : center;
+  vertical-align : middle;
+  z-index:1;
+}
+
+.mainImg{
+  height:px;
+  //position:absolute;
+  z-index:2;
+}
+
+.button-wrap{
+  vertical-align: m
+}
+
+
+.down{
+  
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+
+.down1{
+  display: inline-block;
+  //border: solid 1px black;
+  border-radius: 5px;
+  
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+  font-family: 微軟正黑體;
+  letter-spacing: 1px;
+ 
+  width: 200px;
+  height: 200px;
+ 
+}
+
+.down1Title{
+  text-align : center;
+  font-weight:bold;
+  
+}
+
+
+
+.down2{
+  display: inline-block;
+  //border: solid 1px black;
+  border-radius: 5px;
+  
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  font-family: 微軟正黑體;
+  letter-spacing: 1px;
+  
+
+   width: 200px;
+  height: 200px;
+ 
+}
+
+.down2Title{
+  text-align : center;
+  font-weight:bold;
+}
+
+
+.down3{
+  display: inline-block;
+  //border: solid 1px black;
+  border-radius: 5px;
+  
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  font-family: 微軟正黑體;
+  letter-spacing: 1px;
+  width: 200px;
+  height: 200px;
+ 
+ 
+}
+
+.down3Title{
+  text-align : center;
+  font-weight:bold;
+}
+
+.down4{
+  display: inline-block;
+  //border: solid 1px black;
+  border-radius: 5px;
+
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  font-family: 微軟正黑體;
+  letter-spacing: 1px;
+   width: 200px;
+  height: 200px;
+ 
+}
+
+.down4Title{
+  text-align : center;
+  font-weight:bold;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-left: 20px;
+  padding-top:15px;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+  color:white;
+  background-color: #2C4C79;
+}
+
