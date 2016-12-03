@@ -32,6 +32,7 @@ body{
 
   -webkit-justify-content: center;
           justify-content: center;
+  z-index:999;
   
 }
 
