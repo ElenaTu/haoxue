@@ -67,7 +67,7 @@ body{
   
 }
 
-.header logo{
+.header .logo{
   display: inline-block;
   width: 13%;
   margin:0;
