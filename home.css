@@ -2,24 +2,11 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 *{margin:0px;padding:0px;}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-@font-face {
-  font-family: MyCustomFont;
-  src: local(Heiti TC), local("微軟正黑體");
-  /* no unicode-range; default to all characters */
-}
-
-/* Latin characters 專用 */
-@font-face {
-  font-family: MyCustomFont; /* 同樣的 font-family */
-  unicode-range: U+00-024F;  /* Latin, Latin1 Sup., Ext-A, Ext-B */
-  src: local(Helvetica),     /* OS X preferred */
-       local(Arial);         /* Other OS */
-}
 
 body{
   font-family: 'Arial',微軟正黑體;
-  
   
   background-color: #E3F0F9;
   margin:0;
@@ -142,6 +129,7 @@ body{
   vertical-align:middle;
   float:center;
   transition:opacity 0.4s linear ,visibility 0.4s linear 0s;
+  
 }
 .search-box > #search {
   display: inline-block;
@@ -150,6 +138,8 @@ body{
   border-radius:3px 0px 0px 3px;
   box-shadow:none;
   background-color:#F7F8F8;
+  font-family: 'Arial';
+  
 }
 input , input:focus {
   border:none;
@@ -157,18 +147,20 @@ input , input:focus {
   background-color:none;
   outline: 0;
   font-size:16px;
-  font-family:'Open Sans';
+
   color:#000000;
   padding:0px 12px;
 }
 .also {
-  font-family:'fontawesome';
+ 
   color:#bbb;
   display:inline-block;
   background-color:#F7F8F8;
   height:35px;
   width:40px;
-  line-height: 40px;
+  line-height: 35px;
+  font-family: 'Arial';
+  font-weight:bold;
   text-align: center;
   cursor: pointer;
   border-left:1px solid #ddd;
@@ -190,7 +182,7 @@ input , input:focus {
   float: center;
   position:absolute;
  
-  height : 200px;
+  height : 500px;
   width : 100%;
   color : #2C4C79;
   font-size:150%;
@@ -204,6 +196,7 @@ input , input:focus {
   float: center;
   //position:relative;
   //margin-top:100px;
+  
   width : 100%;
   z-index:2;
   
