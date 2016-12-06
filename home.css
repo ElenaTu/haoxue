@@ -1,7 +1,25 @@
+@import url('http://fonts.googleapis.com/css?family=Cookie');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+*{margin:0px;padding:0px;}
 
+@font-face {
+  font-family: MyCustomFont;
+  src: local(Heiti TC), local("微軟正黑體");
+  /* no unicode-range; default to all characters */
+}
+
+/* Latin characters 專用 */
+@font-face {
+  font-family: MyCustomFont; /* 同樣的 font-family */
+  unicode-range: U+00-024F;  /* Latin, Latin1 Sup., Ext-A, Ext-B */
+  src: local(Helvetica),     /* OS X preferred */
+       local(Arial);         /* Other OS */
+}
 
 body{
   font-family: 微軟正黑體;
+  
   background-color: #E3F0F9;
   margin:0;
   padding:0;
@@ -60,6 +78,7 @@ body{
   width: 40px;
   //height:30px;
   line-height:0px;
+  margin-left:40px;
   vertical-align:middle;
 }
 
@@ -67,6 +86,7 @@ body{
   display: inline-block;
   text-align : left;
   line-height:60px;
+  font-weight:bold;
 
 }
 
@@ -78,8 +98,13 @@ body{
 
 .header button{
   background-color: #2C4C79;
+  border: none;
   color:white;
+  font-size: 14px;
+  padding: 6px 8px;
   float: right;
+  
+    
 
 }
 
@@ -87,19 +112,68 @@ body{
   display: inline-block;
   width: 60%;
 }
- .header .search{
+ .header .container{
 
   text-align : left;
-  //vertical-align : middle;
-   
+  vertical-align: middle;
   font-size: 13px;
-  width: 400px;
-  background: white url('http://imgur.com/1rxHuaw.jpg')  no-repeat 400px 0px ;
-  background-size:25px 25px;
-  padding: 3px 3px 3px 22px;
+  width: 760px;
 }
 
 
+
+
+
+.search-box {
+  display: inline-block;
+  width:100%;
+  position: relative;
+  top:0px;
+  height:40px;
+  vertical-align:middle;
+  float:center;
+  transition:opacity 0.4s linear ,visibility 0.4s linear 0s;
+}
+.search-box > #search {
+  display: inline-block;
+  width:400px;
+  height:35px;
+  border-radius:3px 0px 0px 3px;
+  box-shadow:none;
+  background-color:#F7F8F8;
+}
+input , input:focus {
+  border:none;
+  box-shadow:none;
+  background-color:none;
+  outline: 0;
+  font-size:16px;
+  font-family:'Open Sans';
+  color:#000000;
+  padding:0px 12px;
+}
+.also {
+  font-family:'fontawesome';
+  color:#bbb;
+  display:inline-block;
+  background-color:#F7F8F8;
+  height:35px;
+  width:40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border-left:1px solid #ddd;
+  position: absolute;
+  top:0;
+ 
+}
+.search-link:hover {color:#686868;}
+.setting {
+  border-radius:0px 6px 6px 0px;
+  margin-left:48px;
+  font-size:18px;
+}
+.setting:hover {color:#686868;}
 
 
 .logoImg{
@@ -110,6 +184,7 @@ body{
   width : 100%;
   color : #2C4C79;
   font-size:150%;
+  font-weight:bold;
   text-align : center;
   vertical-align : middle;
   z-index:1;
@@ -121,12 +196,13 @@ body{
   //margin-top:100px;
   width : 100%;
   z-index:2;
+  
 }
 
 
 .down{
   
-  height: 300px;
+  height: 250px;
   display: -webkit-flex;
   display:         flex;
   -webkit-align-items: center;
@@ -242,4 +318,6 @@ footer {
   color:white;
   background-color: #2C4C79;
 }
+
+
 
