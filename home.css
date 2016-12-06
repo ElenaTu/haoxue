@@ -55,7 +55,7 @@ body{
 .header .logo .logoWord{
   display: inline-block;
   text-align : left;
-  line-height:0px;
+  line-height:60px;
 
 }
 
