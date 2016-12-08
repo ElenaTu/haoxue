@@ -47,44 +47,55 @@ body{
   height: 60px;
   background-color: white;
   width: 100%;
-
-
   -webkit-justify-content: center;
           justify-content: center;
   z-index:999;
-  
 }
 
 .header .logo{
+  position: related;
+  margin-left: 40px;
+  margin-top: 5px;
+  height: 100%;
   display: inline-block;
-  width: 13%;
+}
+.header .logo img{
+  position: related;
+  display: inline-block;
+  max-height: 85%;
+  vertical-align: middle;
+}
+
+
+.header .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.header .logoWord{
+  display: inline-block;
+  float:left;
   margin:0;
   padding:0;
-
+  height:100%;
 }
 
-.header .logo img{
-  display: inline-block;
-  text-align : left;
-  width: 40px;
-  //height:30px;
-  line-height:0px;
-  margin-left:40px;
-  vertical-align:middle;
-}
-
-.header .logo .logoWord{
-  display: inline-block;
-  text-align : left;
-  line-height:60px;
-  font-weight:bold;
-
+.header .logoWord img{
+  width: 100px;
+  margin:0;
+  padding:0;
+  vertical-align: middle;
 }
 
 .button-wrap{
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+  position: related;
   vertical-align: middle;
   display: inline-block;
-  margin-left:220px;
 }
 
 
@@ -94,67 +105,60 @@ body{
   color:white;
   font-size: 14px;
   padding: 6px 8px;
-  float: right;
-  
-    
-
 }
 
 .header .search2 {
   display: inline-block;
-
   width: 60%;
 
 }
- .header .container{
 
+
+
+ .header .search-bar{
   text-align : left;
   vertical-align: middle;
   font-size: 13px;
-  width: 760px;
-     margin:0;
+  max-width: 700px;
+  width: 50%;
+  margin:0;
+  margin-left: 10px;
+  margin-top: 10px;
   padding:0;
+  display: inline-block;
 }
 
-
-
-
-
 .search-box {
+  
   display: inline-block;
-  width:100%;
+  width: calc(100% - 65px);
   position: relative;
-  top:0px;
   height:40px;
   vertical-align:middle;
   float:center;
   transition:opacity 0.4s linear ,visibility 0.4s linear 0s;
-  
 }
 .search-box > #search {
   display: inline-block;
-  width:650px;
+  width:100%;
   height:35px;
   border-radius:3px 0px 0px 3px;
   box-shadow:none;
   background-color:#F7F8F8;
-  font-family: 'Arial';
-  
+  font-family: 'Arial';  
 }
+
 input , input:focus {
   border:none;
   box-shadow:none;
   background-color:none;
   outline: 0;
   font-size:16px;
-
   color:#000000;
   padding:0px 12px;
 }
-.also {
- 
-  color:#bbb;
-  display:inline-block;
+.also { 
+  color:#bbb;  
   background-color:#F7F8F8;
   height:35px;
   width:40px;
@@ -164,9 +168,8 @@ input , input:focus {
   text-align: center;
   cursor: pointer;
   border-left:1px solid #ddd;
-  position: absolute;
-  top:0;
- 
+  display:inline-block;
+  float:right;
 }
 .search-link:hover {color:#686868;}
 
