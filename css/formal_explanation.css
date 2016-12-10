@@ -1,0 +1,437 @@
+@import url('http://fonts.googleapis.com/css?family=Cookie');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+*{margin:0px;padding:0px;}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body{
+  font-family: 'Arial',微軟正黑體;
+  
+  background-color: 	#FFFFFF;
+  margin:0;
+  padding:0;
+  
+}
+
+
+.all{
+  width:100%;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  margin-top: 120px;  
+  background-color: #FFFFFF;
+  
+}
+
+.main{
+  //width:100%;
+  max-width: auto;
+  margin: 0 ;
+  padding:0;
+　
+}
+
+.up{
+  width:100%;
+  
+}
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  background-color: white;
+  width: 100%;
+  -webkit-justify-content: center;
+          justify-content: center;
+  z-index:999;
+}
+
+.header .logo{
+  position: related;
+  margin-left: 40px;
+  margin-top: 5px;
+  height: 100%;
+  display: inline-block;
+}
+.header .logo img{
+  position: related;
+  display: inline-block;
+  max-height: 85%;
+  vertical-align: middle;
+}
+
+
+.header .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.header .logoWord{
+  display: inline-block;
+  float:left;
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.header .logoWord img{
+  width: 100px;
+  margin:0;
+  padding:0;
+  vertical-align: middle;
+}
+
+.button-wrap{
+
+  float: right;
+  margin-top: 15px;
+  margin-right: 5px;
+  position: related;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+
+.header .bt_dic img{
+  width: 25%;
+  margin:0;
+  padding:0;
+  vertical-align: middle;
+  display: inline-block;
+  float:left;
+
+}
+
+.header .bt_ham img{
+  width: 25%;
+  margin:0;
+  padding:0;
+  vertical-align: middle;
+  display: inline-block;
+  float:left;
+}
+.header .bt_member img{
+  width: 25%;
+  margin:0;
+  padding:0;
+  vertical-align: middle;
+  display: inline-block;
+  float:left;
+}
+.header .new img{
+  width: 25%;
+  margin:0;
+  padding:0;
+  vertical-align: middle;
+  display: inline-block;
+  float:left;
+}
+
+
+/*外面的searchbar*/
+.header .search2 {
+  display: inline-block;
+  width: 60%;
+
+}
+
+
+
+ .header .search-bar{
+  text-align : left;
+  vertical-align: middle;
+  font-size: 13px;
+  max-width: 700px;
+  width: 50%;
+  margin:0;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding:0;
+  display: inline-block;
+}
+
+.search-box {
+  
+  display: inline-block;
+  width: calc(100% - 65px);
+  position: relative;
+  height:40px;
+  vertical-align:middle;
+  float:center;
+  transition:opacity 0.4s linear ,visibility 0.4s linear 0s;
+}
+.search-box > #search {
+  display: inline-block;
+  width:100%;
+  height:35px;
+  border-radius:3px 0px 0px 3px;
+  box-shadow:none;
+  background-color:#F7F8F8;
+  font-family: 'Arial';  
+}
+
+input , input:focus {
+  border:none;
+  box-shadow:none;
+  background-color:none;
+  outline: 0;
+  font-size:16px;
+  color:#000000;
+  padding:0px 12px;
+}
+.also { 
+  color:#bbb;  
+  background-color:#F7F8F8;
+  height:35px;
+  width:40px;
+  line-height: 35px;
+  font-family: 'Arial';
+  font-weight:bold;
+  text-align: center;
+  cursor: pointer;
+  border-left:1px solid #ddd;
+  display:inline-block;
+  float:right;
+}
+.search-link:hover {color:#686868;}
+
+.setting {
+  border-radius:0px 6px 6px 0px;
+  margin-left:48px;
+  font-size:18px;
+}
+.setting:hover {color:#686868;}
+
+
+/*外面的searchbar*/
+
+.main{
+  position: relative;
+  width:100%;
+  text-align:center;
+  
+  
+}
+
+
+.centerplease{
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align:left;
+ 
+
+  
+}
+
+.searchword3{
+  display: inline-block;
+  float:middle;
+  width:10%;
+  font-size: 22px;
+  margin-top: 18px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight:bold;
+  color:#2C4C79;
+  
+}
+
+.w_p{
+  display: inline-block;
+  float: right;
+  width:15%;
+  margin-top: 25px;
+  margin-right: -20px;
+  font-size: 12px;
+  position: related;
+  vertical-align: middle;
+  color:#9FA0A0;
+
+  
+}
+
+/*裡面的searchbar*/
+
+/*.innersearchbar .search2 {
+  display: inline-block;
+  width: 60%;
+
+}*/
+
+.innersearchbar{
+  text-align : left;
+  vertical-align: middle;
+  font-size: 13px;
+  //max-width: 700px;
+  width:70%;
+  margin:13px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding:0;
+  display: inline-block;
+
+}
+
+
+
+
+.search-box3 {
+  
+  display: inline-block;
+  width: calc(100% - 75px);
+  position: relative;
+  height:40px;
+  vertical-align:middle;
+  float:center;
+  transition:opacity 0.4s linear ,visibility 0.4s linear 0s;
+}
+.search-box3 > #search3 {
+  display: inline-block;
+  width:100%;
+  height:32px;
+  border-radius:3px 0px 0px 3px;
+  border-width:3px;
+  border-style:solid;
+  border-color:#2C4C79;
+  box-shadow:none;
+  background-color:#ffff;
+  font-family: 'Arial';  
+}
+
+input , input:focus {
+  border:none;
+  box-shadow:none;
+  background-color:none;
+  outline: 0;
+  font-size:16px;
+  color:#000000;
+  padding:0px 12px;
+}
+.also3 { 
+  color:#F7F8F8;  
+  background-color:#2C4C79;
+  height:32px;
+  width:40px;
+  line-height: 35px;
+  font-family: 'Arial';
+  font-weight:bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius:0px 3px 3px 0px;
+  border-left:1px solid #ddd;
+  border-width:3px;
+  border-style:solid;
+  border-color:#2C4C79;
+  display:inline-block;
+  float:right;
+}
+.search-link3:hover {color:#686868;}
+
+.setting3 {
+  border-radius:0px 6px 6px 0px;
+  margin-left:48px;
+  font-size:18px;
+}
+.setting3:hover {color:#686868;}
+
+/*裡面的searchbar*/
+
+
+.choose{
+  margin:13px;
+  
+}
+
+.result{
+  margin:13px;
+  width:100%;
+}
+
+.result0_0{
+  display: inline-block;
+  float:left;
+  
+}
+
+.result1{
+  display: inline-block;
+  float:left;
+}
+.result1_1{
+  color:#D15743;
+  display: inline-block;
+  float:left;
+  
+}
+.result1_2{
+  display: inline-block;
+  float:left;
+}
+
+
+.result2{
+  font-size:20px;
+
+}
+
+.result3{
+
+  font-weight:bold;
+  
+}
+
+.result4{
+  color:#9FA0A0;
+  
+}
+
+.example{
+  margin:10px;
+  
+}
+
+.example1{
+  font-size:20px;
+  
+}
+
+
+
+
+
+.translation{
+  margin:13px;
+  
+}
+
+
+.translation1{
+  color:#2C4C79;
+  
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-left: 20px;
+  padding-top:15px;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+  color:white;
+  background-color: #2C4C79;
+}
+
+
