@@ -231,7 +231,7 @@ input , input:focus {
   font-family: 微軟正黑體;
   letter-spacing: 1px;
  
-  width: 210px;
+  width: 250px;
   height: 200px;
  
 }
@@ -239,6 +239,7 @@ input , input:focus {
 .down1Title{
   text-align : center;
   font-weight:bold;
+  line-height:20px;
   
 }
 
@@ -257,7 +258,7 @@ input , input:focus {
   letter-spacing: 1px;
   
 
-   width: 210px;
+   width: 250px;
   height: 200px;
  
 }
@@ -265,6 +266,7 @@ input , input:focus {
 .down2Title{
   text-align : center;
   font-weight:bold;
+  line-height:20px;
 }
 
 
@@ -279,7 +281,7 @@ input , input:focus {
   
   font-family: 微軟正黑體;
   letter-spacing: 1px;
-  width: 210px;
+  width: 250px;
   height: 200px;
  
  
@@ -288,6 +290,7 @@ input , input:focus {
 .down3Title{
   text-align : center;
   font-weight:bold;
+  line-height:20px;
 }
 
 .down4{
@@ -301,7 +304,7 @@ input , input:focus {
   
   font-family: 微軟正黑體;
   letter-spacing: 1px;
-   width: 210px;
+   width: 250px;
   height: 200px;
  
 }
@@ -309,6 +312,7 @@ input , input:focus {
 .down4Title{
   text-align : center;
   font-weight:bold;
+  line-height:20px;
 }
 
 
@@ -336,5 +340,7 @@ footer {
   font-weight:bold;
   line-height: 20px;
 }
+
+
 
 
