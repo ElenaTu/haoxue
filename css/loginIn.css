@@ -350,7 +350,7 @@ FORM{
   font-family: 微軟正黑體;
   letter-spacing: 1px;
  
-  width: 210px;
+  width: 250px;
   height: 200px;
  
 }
@@ -358,6 +358,7 @@ FORM{
 .down1Title{
   text-align : center;
   font-weight:bold;
+  line-height:20px;
   
 }
 
@@ -376,7 +377,7 @@ FORM{
   letter-spacing: 1px;
   
 
-   width: 210px;
+   width: 250px;
   height: 200px;
  
 }
@@ -384,6 +385,7 @@ FORM{
 .down2Title{
   text-align : center;
   font-weight:bold;
+  line-height:20px;
 }
 
 
@@ -398,7 +400,7 @@ FORM{
   
   font-family: 微軟正黑體;
   letter-spacing: 1px;
-  width: 210px;
+  width: 250px;
   height: 200px;
  
  
@@ -407,6 +409,7 @@ FORM{
 .down3Title{
   text-align : center;
   font-weight:bold;
+  line-height:20px;
 }
 
 .down4{
@@ -420,7 +423,7 @@ FORM{
   
   font-family: 微軟正黑體;
   letter-spacing: 1px;
-   width: 210px;
+   width: 250px;
   height: 200px;
  
 }
@@ -428,6 +431,7 @@ FORM{
 .down4Title{
   text-align : center;
   font-weight:bold;
+  line-height:20px;
 }
 
 
@@ -455,6 +459,7 @@ footer {
   font-weight:bold;
   line-height: 20px;
 }
+
 
 
 
