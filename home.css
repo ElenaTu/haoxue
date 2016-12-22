@@ -231,7 +231,7 @@ input , input:focus {
   font-family: 微軟正黑體;
   letter-spacing: 1px;
  
-  width: 200px;
+  width: 210px;
   height: 200px;
  
 }
@@ -257,7 +257,7 @@ input , input:focus {
   letter-spacing: 1px;
   
 
-   width: 200px;
+   width: 210px;
   height: 200px;
  
 }
@@ -279,7 +279,7 @@ input , input:focus {
   
   font-family: 微軟正黑體;
   letter-spacing: 1px;
-  width: 200px;
+  width: 210px;
   height: 200px;
  
  
@@ -301,7 +301,7 @@ input , input:focus {
   
   font-family: 微軟正黑體;
   letter-spacing: 1px;
-   width: 200px;
+   width: 210px;
   height: 200px;
  
 }
@@ -336,6 +336,5 @@ footer {
   font-weight:bold;
   line-height: 20px;
 }
-
 
 
