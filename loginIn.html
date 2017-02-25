@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://elenatu.github.io/haoxue/css/loginIn.css">
+
+  <link rel="stylesheet" href="haoxue/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="haoxue/css/font-awesome.css">
+  <script type="text/javascript" src= "https://elenatu.github.io/haoxue/loginIn.js"></script>
+  
+  
+
+  <title>Haoxue</title>
+
+</head>
+<body onload="load()">
+
+  <div class = all>
+  <div class = header>
+    
+    <div class = "logo">
+      <img src= 'http://imgur.com/XdImWC7.jpg' />
+      <img src= 'http://imgur.com/m4fMhgv.jpg '  />
+    </div>   
+      
+    <div class="search-bar">
+      <div class="search-box" id="SBox">
+        <input id="search" placeholder="Search..." type="text" />          
+      </div>
+      <div class="fa fa-search also search-link" onclick="searchbox(0)" id="searchclick">GO</div>
+    </div>     
+    
+    <div class= "button-wrap">
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">Login In</button>
+    </div>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class = "loginMember">Login In</div>
+        <FORM METHOD=POST ACTION="auth.php">
+          <div class="formUp">
+              <div class="accountNumber"><INPUT TYPE="text" NAME="account" placeholder="account number"  style="width:250px;height:30px;"></div><BR>
+              <div class="password"><INPUT TYPE="password" NAME="password" placeholder="password"  style="width:250px;height:30px;"></div><BR>
+          </div>
+          <div class="formDown">
+              <div class="submit"><INPUT TYPE="submit" NAME="submit" value="Login In"  style="width:250px;height:30px;"></div>
+          </div>
+        </FORM>
+        <div class="either">
+            <div class = forget>Forget password?</div>  
+            <HR color="#9FA0A0" size="1.8" width="100%" align="center">
+            <div class = createNew> Create new</div>  
+        </div>
+      </div>
+
+     </div>
+    
+    </div>
+   
+   <div class = main id=myMain>
+     
+     <div class=logoImg>
+        <img src= 'http://imgur.com/XdImWC7.jpg' />
+       <br> 
+       An efficient and creative way to learn Chinese!<br>
+       Start creating your own cards, sharing and making friends.
+       
+      </div> 
+   
+      <div class=mainImg>
+
+        <img src= 'http://imgur.com/cQSq30b.jpg' / width='100%'>
+        
+      </div>
+
+                <div class=down>
+          <div class=down1>
+            <div class = down1Title>
+            <img src= 'http://imgur.com/DTrC4C8.jpg' width='px' />
+            <br><br>
+            <p style="font-weight: bold; ">單字文法</p>
+            <p style="font-weight:normal; font-size:14px;">分享你學中文的方法</p>
+            </div>
+            <div class =down1Word>
+              <br>
+            <HR color="#9FA0A0" size="1" width="100%" align="center" >
+            <br>
+              <p style="font-weight: bold; " align="center">Grammar & Vocabulary</p><br>
+              <p align="center";>Share your learning strategies with us!</p>
+            </div>
+            
+              
+          </div>
+          <div class=down2>
+            <div class = down2Title>
+              <img src= 'http://imgur.com/Oma9tNW.jpg'  />
+              <br><br>
+              <p style="font-weight: bold; ">動態字典</p>
+              <p style="font-weight:normal; font-size:14px;">最新用語立刻查馬上學</p>
+            </div>
+            <div class =down2Word>
+              <br>
+   
+            <HR color="#9FA0A0" size="1" width="100%" align="center">
+            <br>
+            <p style="font-weight: bold ; " align="center">Dynamic Dictionary</p><br>
+            <p align="center";>Popular catchphrases or formal usage check and learn.</p>
+            </div>
+            
+          </div>
+          <div class=down3>
+            <div class = down3Title>
+            <img src= 'http://imgur.com/9mMYlQQ.jpg'  />
+            <br><br>
+            <p style="font-weight: bold; ">準備考試</p>
+            <p style="font-weight:normal; font-size:14px;">台灣TOFCL和中國HSK</p>
+            </div>
+            <div class =down3Word>
+              <br>
+              <HR color="#9FA0A0" size="1" width="100%" align="center">
+              <br>
+              <p style="font-weight: bold; " align="center">Chinese Exam</p><br>
+              <p align="center";>We collect both Taiwan and China exam questions.</p>
+            </div>   
+ 
+          </div>
+              
+          <div class=down4>
+            <div class = down4Title>
+            <img src= 'http://imgur.com/XYSRuRe.jpg'  />
+            <br><br>
+            <p style="font-weight: bold; ">語言交換</p>
+            <p style="font-weight:normal; font-size:14px;">與來自世界的朋友交流</p>
+            </div>
+            <div class =down4Word>
+              <br> 
+              <HR color="#9FA0A0" size="1" width="100%" align="center">
+              <br>
+              <p style="font-weight: bold; " align="center">Language Exchange</p><br>
+              <p align="center;">Communicate with friends around the world.</p>
+            </div>
+
+            
+            
+          </div>
+        </div>
+ </div> 
+</div>
+</body>
+  
+  <footer>
+    <div class = footer1>ABOUT US</div>
+    <div class = footer2>
+   
+      好學是一個全球服務的中文學習網站，著重在解決學習者使用單字和文法的難點，同時也開發動態字典搭配考古題庫，提供一個豐富學習資源和交流的平台。
+    <br>
+    好學的開發團隊來自台灣，目前團隊裡共有兩位工程師、一位美術設計和一位華語老師。
+    目前這個想法還在不斷實驗中，歡迎感興趣的合作夥伴一同交流各種創意想法。
+    </div>
+  </footer>
+  
+</html>
