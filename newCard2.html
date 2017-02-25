@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://elenatu.github.io/haoxue/css/newCard2.css">
+
+
+
+
+
+  <title>Haoxue</title>
+
+</head>
+<body onload="load()">
+
+<div class = all>
+  <div class = header>
+    
+    <div class = "logo">
+      <img src= 'http://imgur.com/XdImWC7.jpg' />
+      <img src= 'http://imgur.com/m4fMhgv.jpg '  />
+    </div>   
+      
+    <div class="search-bar">
+      <div class="search-box" id="SBox">
+        <input id="search" placeholder="Search..." type="text" />          
+      </div>
+      <div class="fa fa-search also search-link" onclick="searchbox(0)" id="searchclick">GO</div>
+    </div>     
+    
+    
+    <!-- Trigger/Open The Modal -->
+    <div class= "button-wrap">
+      <div class="new">
+      <input type="image" name="image" id="newCard"  src="http://imgur.com/hux1qL3.jpg" width="40px";height="40px"; />
+      </div>
+      
+      <div class="bt_dic">
+      <img src= 'http://imgur.com/cLnjesY.jpg' />
+      </div>
+      
+      <div class="bt_member">
+      <img src= 'http://imgur.com/ShfwLyY.jpg' />
+      </div>
+  
+    </div>
+    <!-- The Modal -->
+    
+  </div>
+<!-- new card blog start-->
+<div class = newCard>
+新增文章
+
+<!--線--><HR color="#9FA0A0" size="1" width="100%" align="center" ><!--線 end-->
+          <div class = "createCard">Key Word... ex:一...就...</div>
+
+          <!--背景字卡顏色-->
+          <div class = chooseColor></div>
+          <!--背景字卡顏色 end-->
+
+
+          <FORM METHOD=POST ACTION="auth.php">
+            <div class="formTop">
+                <!--動詞名詞形容詞成語+-->
+                <div class="category">Category:<INPUT TYPE="text" NAME="category" placeholder="N./V./SV./Grammar."  style="width:50%;height:30px;"></div>
+                <!--動詞名詞形容詞成語+ end-->
+                
+            </div>
+
+            <div class="formUnder">
+                <!--Title-->
+                <div class="title">Title:<INPUT TYPE="text" NAME="title" >
+
+                </div>
+                <!--Title end-->
+                <HR color="#9FA0A0" size="1" width="95%" align="center" >
+
+                <!--Content-->
+                <div class="inner"><INPUT TYPE="text" NAME="inner"  placeholder="Content" ></div>
+                <!--Content end-->
+            </div>
+
+            <div class="formBanner">
+                <!--字的樣式-->
+                <div class = change><img src="http://imgur.com/ZhxF3zZ.jpg" width="30px" height="30px"></div>  
+                <!--字的樣式  end-->
+                <!--上傳圖片-->
+                <div class = uploadImg><img src="http://imgur.com/PmaAFir.jpg" width="30px" height="30px"></div> 
+                <!--上傳圖片 end-->
+                
+            </div>
+            <!--提交-->
+            <div class="share"><INPUT TYPE="submit" NAME="share" value="Share"  style="width:60px;height:25px;">
+            </div>
+            <!--提交 end-->
+
+
+          </FORM>
+
+
+</div>
+<!-- new card blog end-->
+        
+</div>
+</body>
+  
+  <footer>
+    <div class = footer1>ABOUT US</div>
+    <div class = footer2>
+   
+      好學是一個全球服務的中文學習網站，著重在解決學習者使用單字和文法的難點，同時也開發動態字典搭配考古題庫，提供一個豐富學習資源和交流的平台。
+    <br>
+    好學的開發團隊來自台灣，目前團隊裡共有兩位工程師、一位美術設計和一位華語老師。
+    目前這個想法還在不斷實驗中，歡迎感興趣的合作夥伴一同交流各種創意想法。
+    </div>
+  </footer>
+  
+</html>
